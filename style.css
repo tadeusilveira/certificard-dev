@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2? family= Ubuntu & display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #20073a 27.26%, #7b22d3 96.03%);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  background: #d1b4ee;
+  coler: #000000;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #220536;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  fonte-weight: 700;
+  fonse-size: 36px;
+}
+
+.titulo h3 {
+  fonte-weight: 400;
+  fonte-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-size: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #8626e6 27.49%, #c9bcd5 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  fonte-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: nome;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #000000 27.26%, #8626e6 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #000000;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
